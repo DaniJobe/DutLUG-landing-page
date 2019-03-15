@@ -381,6 +381,10 @@ img {
     transform: rotate(-360deg);
   }
 }
+.sponsors_logo {
+  opacity:0.6;
+  filter: alpha(opacity=60);
+}
 /* ----------------colors------------------- */
 .color-gray {
   color: #f0f2f6 !important;
@@ -1798,6 +1802,20 @@ footer .footer_social li a {
   height: 40px;
   text-align: center;
 }
+footer .footer_social a {
+  border: solid 1px #f50136;
+  display: block;
+  border-radius: 50px;
+  padding: 7px 0;
+  font-size: 24px;
+  color: #f50136;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+footer .footer_forum a {
+  color:#f50136;
+}
 footer .footer_social li a:hover {
   background-color: #f50136;
   color: #ffffff;
@@ -2502,7 +2520,7 @@ Cover
 }
 
 /*  ----------------------------------------------------
-7 Price box
+7 Price 
 -------------------------------------------------------- */
 .price_box {
   position: relative;
