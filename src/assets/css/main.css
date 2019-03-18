@@ -2072,7 +2072,8 @@ Cover
 .cover_slider .cover_item .slider_content .slider-content-inner * .cover-subtitle {
   font-size: 18px;
   color: #999bbf;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  opacity: 0;
   -webkit-transform: translateY(20px);
   transform: translateY(20px);
   -webkit-transition: all 0.4s 900ms ease-in-out;
@@ -2109,6 +2110,14 @@ Cover
   -webkit-transition: all 0.4s 900ms ease-in-out;
   transition: all 0.4s 900ms ease-in-out;
 }
+.cover_slider .active .slider_content .slider-content-inner * .cover-subtitle {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: all 0.4s 900ms ease-in-out;
+  transition: all 0.4s 900ms ease-in-out;
+}
+
 .cover_slider .active .slider_content .slider-content-inner * a {
   opacity: 1;
   -webkit-transform: translateY(0px);
