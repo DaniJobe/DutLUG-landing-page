@@ -1994,15 +1994,24 @@ footer .newsletter_form .form-control {
 /*  ----------------------------------------------------
 Cover
 -------------------------------------------------------- */
+.flex_cont{
+  display: flex;
+  align-items: center;
+}
+
 .home-cover {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .cover_slider {
   padding: 0;
   margin: 0;
   width: 100%;
-  display: block;
+  margin: auto;
   position: relative;
   list-style: none;
   word-break: break-all;
@@ -2027,7 +2036,8 @@ Cover
   background-repeat: no-repeat !important;
 }
 .cover_slider .cover_item .slider_content {
-  display: table;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
   position: relative;
@@ -2036,8 +2046,12 @@ Cover
   color: #ffffff;
 }
 .cover_slider .cover_item .slider_content .slider-content-inner {
-  display: table-cell;
-  vertical-align: middle;
+/*  display: table-cell;
+  vertical-align: middle;*/
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
 }
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
   margin-top: 25px;
