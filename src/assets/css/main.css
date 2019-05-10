@@ -2026,11 +2026,13 @@ Cover
   text-align: left;
 }
 .cover_slider .cover_item {
+  display: flex;
+  align-items: center;
   width: 100%;
   position: relative;
   height: 75vh;
   /*min-height: 600px;*/
-  padding: 150px 0;
+ /* padding: 150px 0;*/
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -2381,6 +2383,7 @@ Cover
   background-color: #f0f2f6;
   padding: 0;
   margin: 25px 0;
+  min-height: 250px;
   position: relative;
   overflow: hidden;
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);

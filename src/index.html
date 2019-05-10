@@ -3,12 +3,12 @@
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
-    <meta name="description" content="DutLUG Landing Page">
+    <meta name="description" content="DutLUG - Dutch LabVIEW User Group">
     <meta name="keywords" content="DutLUG , LabVIEW , User Group, Dutch">
     <meta name="author" content="VI Technologies">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- ========== Title ========== -->
-    <title>DutLUG</title>
+    <title>DutLUG - Dutch LabVIEW User Group</title>
     <!-- ========== Favicon Ico ========== -->
     <link rel="icon" href="favicon.ico">
     <!-- ========== STYLESHEETS ========== -->
@@ -72,9 +72,9 @@
 
 <!--cover section slider -->
 <section id="home" class="home-cover">
-    <div class="cover_slider owl-carousel owl-theme">
+    <div class="cover_slider owl-carousel owl-theme flex-cont">
         <div class="cover_item" style="background: url('assets/img/bg/DutlugBanner1920_dark.png');">
-             <div class="slider_content">
+             <div class="slider_content flex-cont">
                 <div class="slider-content-inner">
                     <div class="container flex_cont">
                         <div class="slider-content-center">
@@ -85,9 +85,9 @@
                             <p class="cover-subtitle">
                                 Dutch LabVIEW User Group
                             </p>
-                            <p class="cover-date">
+<!--                             <p class="cover-date">
                                 June 6, 2019  - Eindhoven
-                            </p>
+                            </p> -->
                             <a href="https://www.eventbrite.com/e/tickets-dutlug-dutch-labview-user-group-meeting-30034443830?ref=ebtn" target="_blank" class=" btn btn-primary btn-rounded" >
                                 Register Now
                             </a>
@@ -119,12 +119,12 @@
                 </div>
             </div>
             <div class="col-6 col-md-3  ">
-                <a href="https://goo.gl/maps/bQDfXPofqzx" target="_blank">
+                <a href="#location">
                     <div class="icon_box_two">
                         <i class="ion-ios-location-outline"></i>
                         <div class="content">
                             <h5 class="box_title">
-                                location
+                                LOCATION
                             </h5>
                             <p>
                                 Eindhoven High Tech Campus Conference Center
@@ -139,7 +139,7 @@
                         <i class="ion-ios-pricetag-outline"></i>
                         <div class="content">
                             <h5 class="box_title">
-                                tickets
+                                REGISTER
                             </h5>
                             <p>
                                 Always free and open to everyone
@@ -171,10 +171,10 @@
 
 <!--about the event -->
 <section class="pt100 pb100">
-    <div class="container">
+    <div class="container" id="about_us">
         <div class="section_title">
             <h3 class="title">
-                About the event
+                About us
             </h3>
         </div>
         <div class="col-12 col-md-10">
@@ -190,49 +190,57 @@
                 <br>December 12, 2019
             </p>
         </div>
-
+    </div>
         <!--event features-->
-        <div class="row justify-content-center mt30">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-bubble"></i>
-                    <div class="content">
-                        <h4>Join our Forum</h4>
-                        <p>
-                            Get info on presentations, download past content, and give feedback.
-                        </p>
-                        <a href="https://forums.ni.com/t5/DutLUG/gp-p/5336" target="_blank">read more</a>
+        <div class="row justify-content-center mt30 ml30 mr30">
+            <div class="col-sm-10 col-md-6 col-lg-4">
+                <a href="https://forums.ni.com/t5/DutLUG/gp-p/5336" target="_blank">
+                    <div class="icon_box_one">
+                        <i class="lnr lnr-bubble"></i>
+                        <div class="content">
+                            <h4>Join our Forum</h4>
+                            <p>
+                                Get info on presentations, download past content, and give feedback.
+                            </p>
+<!--                             <a href="https://forums.ni.com/t5/DutLUG/gp-p/5336" target="_blank">read more</a> -->
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-envelope"></i>
-                    <div class="content">
-                        <h4>Stay up to Date</h4>
-                        <p>
-                            Always be updated on the next event. Join our mailing list. 
-                        </p>
-                        <a href="https://vi-tech.us10.list-manage.com/subscribe?u=a4493009a3b61efed92f8cd33&id=4f61a3ae26" target="_blank">subscribe</a>
+            <div class="col-sm-10 col-md-6 col-lg-4">
+                <a href="https://vi-tech.us10.list-manage.com/subscribe?u=a4493009a3b61efed92f8cd33&id=4f61a3ae26" target="_blank">
+                    <div class="icon_box_one">
+                        <i class="lnr lnr-envelope"></i>
+                        <div class="content">
+                            <h4>Stay up to Date</h4>
+                            <p>
+                                Always be updated on the next event. Join our mailing list. 
+                            </p>
+                            <!-- <a href="https://vi-tech.us10.list-manage.com/subscribe?u=a4493009a3b61efed92f8cd33&id=4f61a3ae26" target="_blank">subscribe</a> -->
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-pencil"></i>
-                    <div class="content">
-                        <h4>Register</h4>
-                        <p>
-                            Join us for the next meeting. It's always free and open to all levels!
-                        </p>
-                        <a href="https://www.eventbrite.com/e/tickets-dutlug-dutch-labview-user-group-meeting-30034443830?ref=ebtn" target="_blank">sign up</a>
+            <div class="col-sm-10 col-md-6 col-lg-4">
+<!--             <div class="col-12 col-md-3 col-lg-3"> -->
+                <a href="https://www.eventbrite.com/e/tickets-dutlug-dutch-labview-user-group-meeting-30034443830?ref=ebtn" target="_blank">
+                    <div class="icon_box_one">
+                        <i class="lnr lnr-pencil"></i>
+                        <div class="content">
+                            <h4>Register to Attend</h4>
+                            <p>
+                                Join us for the next meeting. It's always free and open to all levels!
+                            </p>
+<!--                             <a href="https://www.eventbrite.com/e/tickets-dutlug-dutch-labview-user-group-meeting-30034443830?ref=ebtn" target="_blank">sign up</a> -->
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
+<!--             </div> -->
 
-            <div class="col-12 col-md-6 col-lg-3">
+<!--             <div class="col-12 col-md-6 col-lg-3">
                 <div class="icon_box_one">
                     <i class="lnr lnr-heart"></i>
                     <div class="content">
@@ -244,7 +252,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--event features end-->
 
     </div>
@@ -252,15 +260,15 @@
 <!--about the event end -->
 <!--Call For Presenters-->
 <section class="bg-gray pt100 pb100">
-    <div class="container">
+    <div class="container" id="volunteer_present">
         <div class="section_title mb50">
             <h3 class="title">
-               We need presenters!
+               Share your Knowledge!
             </h3>
         </div>
         <div class ="col-12 col-md-10 pb25">
             <p>
-               Got a cool idea for something you want to share?
+               The DUTLUG is for LabVIEW programmers by LabVIEW programmers, so we're always looking for volunteers who would like to contribute. Do you have an interesting LabVIEW topic you'd like to share? 
             </p>
             <h6 class = "pt10 pb10">
                Sign up to present!
@@ -278,7 +286,7 @@
 
 <!--Map section-->
 <section class="pt100 pb100">
-    <div class="container">
+    <div class="container" id="location">
         <div class="section_title mb50">
             <h3 class="title">
                Location
@@ -298,7 +306,7 @@
 <!--Map section end -->
 
 <section class="pb100">
-    <div class="container">
+    <div class="container" id="parking">
         <div class="section_title mb50">
             <h3 class="title">
                Where can I park?
